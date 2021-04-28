@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="109.056968">
+    <testcase classname="New User registration." name="Navigate to ELEARNING UPSKILL URL and Login and Sent message" time="91.666">
+        <system-out>
+            <![CDATA[When Completed the registration process.....................................passed
+And enter any value "Ankitachaudhari5454Ankitachaudhari5454" in Username field.passed
+And enter any value "Password@5454" in Pass field...........................passed
+And click on Login Button...................................................passed
+And Click on  Compose hyperlink icon........................................passed
+And enter any value "Ankita" in Sent to field...............................passed
+And enter any value "Sending email" in Sent to field........................passed
+And enter any value "Sending message" in Sent to field......................passed
+And enter any value "<Description>" in Sent to field........................passed
+Then click on "<Sent Message>" icon.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="New User registration." name="Navigate to ELEARNING UPSKILL URL" time="17.390968">
+        <system-out>
+            <![CDATA[Given User should be navigated to the ELEARNING UPSKILL URL.................passed
+When Click on Sign Up Button................................................passed
+And Enter all mandatory field...............................................passed
+And Click on Register Button................................................passed
+Then registration should be successful......................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
